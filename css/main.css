@@ -1,5 +1,5 @@
 html {
-  font-family: 'Bitter', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1 {
@@ -8,4 +8,23 @@ h1 {
 
 .headerimg {
   max-width: 35em;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #c2c2c2;
+  border-radius: 4px;
+}
+
+.current {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
 }
